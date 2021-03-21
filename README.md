@@ -14,7 +14,8 @@ This repo has following directory structure:
 ```
 
 The quality of regression models is evaluated using the function:
-<img src="https://render.githubusercontent.com/render/math?math=\text{Metric}\left(y_true, y_pred\right) = 100*\frac{\sum|y_trus - y_pred|}{\sum(y_pred)}">
+
+<img src="https://render.githubusercontent.com/render/math?math=\text{Metric}\left(y_{true}, y_{pred}\right) = 100*\frac{\sum|y_{true} - y_{pred}|}{\sum(y_{pred})}">
 ```python
 def metric(y_true, y_pred):
     return np.sum(np.abs(y_true - y_pred))/np.sum(y_pred)*100
