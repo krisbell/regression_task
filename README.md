@@ -17,6 +17,8 @@ The quality of regression models is evaluated using the function:
 
 <img src="https://render.githubusercontent.com/render/math?math=\text{Metric}\left(y_{true}, y_{pred}\right) = 100*\frac{\sum\big|y_{true} - y_{pred}\big|}{\sum y_{pred}}">
 
+![formula](https://render.githubusercontent.com/render/math?math=\text{Metric}\left(y_{true}, y_{pred}\right) = 100*\frac{\sum\big|y_{true} - y_{pred}\big|}{\sum y_{pred}})
+
 ```python
 
 def metric(y_true, y_pred):
