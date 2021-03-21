@@ -6,9 +6,9 @@ This repo has following directory structure:
 .
 ├───data
 │   ├───data_regression_for_task.csv - warehouse and retail sales dataset
+├───cross_validation.py - auxiliary file for performing temporary cross-validation
 ├───data_analysis.ipynb - data analytics and visualization of data dependencies
 ├───data_preprocessing.ipynb - preparing data for a regression model
-├───cross_validation.py - auxiliary file for performing temporary cross-validation
 |───processing.py - auxiliary file for performing data preprocessing
 └───regression.ipynb - training of regression models and evaluation of a forecast for the last month for "SALES"
 ```
